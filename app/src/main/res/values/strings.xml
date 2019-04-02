@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Badanie zadowolenia klienta</string>
+    <string name="range">Skala ocen: 1-5</string>
+    <string name="hello">Witaj w aplikacji</string>
+    <string name="adding">dodaj</string>
+    <string name="finding">znajdź</string>
+    <string name="quality">Jakość wykonanych badań</string>
+    <string name="report">Jakość sprawozdania z badań</string>
+    <string name="promptness">Terminowość usług</string>
+    <string name="complaint">Reklamacje</string>
+    <string name="currentCooperation">Bieżąca współpraca</string>
+    <string name="contact">Łatwość kontaktu</string>
+    <string name="warnings">Uwagi</string>
+    <string name="save">Zapisz</string>
+    <string name="find">Znajdź</string>
+    <string name="nick">Nick</string>
+    <string name="findTopic">Skala 1-5, 0 - dowolna</string>
+    <string name="findN">Puste pole oznacza dowolny nick</string>
+    <string name="nullText" />
+    <string name="pokazWszystkie">Pokaż wszystkie</string>
+    <string name="change">Zmień</string>
+    <string name="delOne">Usuń wybrany</string>
+    <string name="selAll">Usuń wszystko</string>
+    <string name="giveID">Podaj ID wpisu</string>
+    <string name="confirmChanges">Zatwierdź zmiany</string>
+</resources>

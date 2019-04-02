@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marcin.projectv1.Main3Activity">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/range"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView12"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/quality"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="18dp"
+        android:text="@string/report"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_below="@+id/textView14"
+        android:layout_marginTop="16dp"
+        android:text="@string/promptness"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_below="@+id/textView15"
+        android:layout_marginTop="14dp"
+        android:text="@string/complaint"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView17"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_below="@+id/textView17"
+        android:layout_marginTop="14dp"
+        android:text="@string/currentCooperation"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_below="@+id/textView18"
+        android:layout_marginTop="17dp"
+        android:text="@string/contact"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignStart="@+id/textView19"
+        android:layout_below="@+id/textView19"
+        android:layout_marginTop="21dp"
+        android:text="@string/nick"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText26"
+        android:layout_alignBottom="@+id/editText26"
+        android:layout_alignLeft="@+id/textView20"
+        android:layout_alignStart="@+id/textView20"
+        android:text="@string/warnings"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText18"
+        android:layout_width="@dimen/inputWidth"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText20"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="@string/nullText" />
+
+    <EditText
+        android:id="@+id/editText20"
+        android:layout_width="@dimen/inputWidth"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView14"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignLeft="@+id/editText18"
+        android:layout_alignStart="@+id/editText18"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/nullText" />
+
+    <EditText
+        android:id="@+id/editText21"
+        android:layout_width="@dimen/inputWidth"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView15"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignLeft="@+id/editText20"
+        android:layout_alignStart="@+id/editText20"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/nullText" />
+
+    <EditText
+        android:id="@+id/editText22"
+        android:layout_width="@dimen/inputWidth"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText21"
+        android:layout_alignRight="@+id/editText21"
+        android:layout_below="@+id/textView15"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/nullText" />
+
+    <EditText
+        android:id="@+id/editText23"
+        android:layout_width="@dimen/inputWidth"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText22"
+        android:layout_alignStart="@+id/editText22"
+        android:layout_below="@+id/textView17"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/nullText" />
+
+    <EditText
+        android:id="@+id/editText24"
+        android:layout_width="@dimen/inputWidth"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView19"
+        android:layout_alignBottom="@+id/textView19"
+        android:layout_alignEnd="@+id/editText23"
+        android:layout_alignRight="@+id/editText23"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/nullText" />
+
+    <EditText
+        android:id="@+id/editText25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText24"
+        android:layout_alignRight="@+id/editText24"
+        android:layout_below="@+id/editText24"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/nullText" />
+
+    <EditText
+        android:id="@+id/editText26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText25"
+        android:layout_alignStart="@+id/editText25"
+        android:layout_below="@+id/editText25"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText26"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/confirmChanges" />
+
+</RelativeLayout>
